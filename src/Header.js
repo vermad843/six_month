@@ -4,7 +4,15 @@ import React from 'react';
 function Header() {
     return (
         <div className = "header">
-            <h1>I am a header</h1>
+            <div className='header__left'>
+                <h1>Logo</h1>
+            </div>
+            <div className='header__input'>
+                <h1>Input</h1>
+            </div>
+            <div className='header__icons'>
+                <h1>More Icons</h1>
+            </div>
         </div>
     )
 }
