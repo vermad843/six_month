@@ -22,7 +22,7 @@ function Header() {
                   onChange={e => setInputSearch(e.target.value)}
                   value = {inputSearch}
                  />
-                 <SearchIcon/>
+                 <SearchIcon className='header__inputButton'/>
             </div>
             <div className='header__icons'>
                 <h1>More Icons</h1>
