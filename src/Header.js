@@ -29,10 +29,10 @@ function Header() {
                  <SearchIcon className='header__inputButton'/>
             </div>
             <div className='header__icons'>
-                <VideoCallIcon/>
-                <AppsIcon/>
-                <NotificationsIcon/>
-                <Avatar alt="Remy Sharp" src='https://avatars.githubusercontent.com/u/51009293?s=60&v=4' />
+                <VideoCallIcon className='header__icon'/>
+                <AppsIcon className='header__icon'/>
+                <NotificationsIcon className='header__icon'/>
+                <Avatar  src='https://avatars.githubusercontent.com/u/51009293?s=60&v=4' />
             </div>
         </div>
     )

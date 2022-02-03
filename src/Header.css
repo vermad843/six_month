@@ -29,3 +29,12 @@
     flex : 1;
     border : none;
 }
+
+.header__icons {
+    display: flex;
+    align-items: center;
+}
+
+.header__icon {
+    margin-right: 8px;
+}
