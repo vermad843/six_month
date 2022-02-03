@@ -1,10 +1,11 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Header.css';
 import MenuIcon from '@mui/icons-material/Menu';
-
+import SearchIcon from '@mui/icons-material/Search';
 
 function Header() {
-    return (
+    const [inputSearch, setInputSearch] = useState('');
+        return (
         <div className = 'header'>
             <div className='header__left'>
                 <MenuIcon/>
@@ -15,7 +16,13 @@ function Header() {
                  />
             </div>
             <div className='header__input'>
-                <h1>Input</h1>
+                <input
+                  type = 'text'
+                  placeholder='search'
+                  onChange={e => setInputSearch(e.target.value)}
+                  value = {inputSearch}
+                 />
+                 <SearchIcon/>
             </div>
             <div className='header__icons'>
                 <h1>More Icons</h1>
