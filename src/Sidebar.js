@@ -13,16 +13,17 @@ import './Sidebar.css';
 
 function Sidebar() {
   return <div className='sidebar'>
-       <h1>I am Sidebar</h1>
-       <SidebarRow Icon = {HomeIcon} title = 'Home'/>
+       <SidebarRow selected Icon = {HomeIcon} title = 'Home'/>
        <SidebarRow Icon = {WhatshotIcon} title = 'Trending'/>
        <SidebarRow Icon = {SubscriptionsIcon} title = 'Subscription'/>
+       <hr/>
        <SidebarRow Icon = {VideoLibraryIcon} title = 'Library'/>
        <SidebarRow Icon = {HistoryIcon} title = 'History'/> 
        <SidebarRow Icon = {OndemandVideoIcon} title = 'Your videos'/>  
        <SidebarRow Icon = {WatchLaterIcon} title = 'Watch Later'/>  
        <SidebarRow Icon = {ThumbUpIcon} title = 'Liked videos'/>  
        <SidebarRow Icon = {ExpandMoreIcon} title = 'Show more'/> 
+       <hr/>
   </div>;
 }
 
