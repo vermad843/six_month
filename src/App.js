@@ -5,10 +5,12 @@ import Recommended from './Recommended';
 
 function App() {
   return (
-    <div className="App">
+    <div className="app">
       <Header/>
-      <Sidebar/> 
-      <Recommended/>
+      <div className='app__page'>
+        <Sidebar/> 
+        <Recommended/>
+      </div>
     </div>
   );
 }
