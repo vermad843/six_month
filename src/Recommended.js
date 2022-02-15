@@ -1,8 +1,9 @@
 import React from 'react';
+import VideoCard from './VideoCard';
 
 function Recommended() {
   return <div className='recommended'>
-        <h1>I am recommended component</h1>
+        <VideoCard/>
   </div>;
 }
 
